@@ -1,29 +1,415 @@
+<!DOCTYPE html>
 <html dir="rtl">
-    <head>
-        <title>تسجيل الدخول</title>
-        <link rel="stylesheet" href="style1.css">
-    </head>
-    <body>
-        <div class="main">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> الصفحة الرئيسية</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+         .header-line{
+               height: 10px;
+               background :linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+            }
+            .sp{
+             background-color: blueviolet;
+                }
+            .main{
+              background-image: url(slider-2.jpg);
+             height: 360px;
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: center center ;
+             
+            }
+            .formm{
+                top: 150px;
+                left: 100px;
+            }
+            .im{
+                height: 80px;
+                 width: 80px;
+            }
+            .tt{
+                float: left;
+            }
+            .menu{
+                width: 700px;
+                align-items: center;
+            }
+    </style>
+</head>
+<body>
+    <div class="header-line">
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white mt-2 mb-3">
+            <div class="container-fluid">
+              <a class="navbar-brand " href="#"> <img src="img1.png"  width="120"></a>
+               <div class="nav-item dropdown mt-1">  
+                <a class="nav-link dropdown-toggle text-decoration-none text-secondary d-lg-block d-none" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  التصنيفات
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span></button>
+                <div class="dropdown-menu menu" aria-labelledby="navbarDropdown"> 
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 m-1">
+                                <h6 class="text-dark">الاثاث المنزلي</h6>
+                                 
+                                <a class="dropdown-item" href="#"> فرشات نوم </a>
+                                <a class="dropdown-item" href="#">  طاولات </a>
+                                <a class="dropdown-item" href="#">   ملحقات </a>
+                                <a class="dropdown-item" href="#">    اطقم كنب </a>
+                                <a class="dropdown-item" href="#">    اطقم نوم </a>
+                                <a class="dropdown-item" href="#">    فرش عربي   </a>
+                            </div>
+                            <div class="col-lg-4 m-1">
+                                <h6 class="text-dark"> الاجهزة الكهربائية  </h6>
+                                <a class="dropdown-item " href="#"> فرشات نوم </a>
+                                <a class="dropdown-item" href="#">  جولات </a>
+                                <a class="dropdown-item" href="#">   الغسالات</a>
+                                <a class="dropdown-item" href="#">    الثلاجات </a>
+                                <a class="dropdown-item" href="#">    فرش الكنب </a>
+                                <a class="dropdown-item" href="#">    شاشات التلفاز </a>
+                                
+                            </div>
+                            <div class="col-lg-3 m-1">
+                                <h6 class="text-dark"> صالات الافراح </h6>
+                                <a class="dropdown-item " href="#">   قاعة سهرة الشباب </a>
+                                <a class="dropdown-item" href="#">  قاعة حنة </a>
+                                <a class="dropdown-item" href="#">   قاعة خطوبة</a>
+                                <a class="dropdown-item" href="#">    قاعة افراح </a>
+                              
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                   
+                    
+                   
+                   
+                </div>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <button class="btn btn-success m-3"><span class="bi bi-plus"></span>  سجل كمورد </button>
+                 </li>
+                  <li class="nav-item">
+                     <div class="d-flex text-center">
+                      <div>
+                        <i class="bi bi-search"></i>
+                        <span class="badge sp rounded-pill">0</span>
+                        <p class="p-2">البحث</p>
+                    </div>
+                      <div>
+                        <i class="bi bi-heart"></i>
+                        <span class="badge sp rounded-pill">0</span>
+                         <p class="p-2">المفضلة</p>
+                      </div>
+                      <div>
+                        <i class="bi bi-cart3"></i>
+                        <p class="p-2">المشتريات</p>
+                    </div>
+                    <div>
+                      <i class="bi bi-person-square"></i>
+                      <p class="p-2">تسجيل الدخول</p>
+                    </div>
+                     </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            </nav>
+
+    </div>
+    <div class="main position-relative">
+    </div>
+    <form  class="bg-white rounded position-absolute formm p-2 ">
+        <h4 class="text-center text-muted mb-1">كل المراحب والله</h4>
+        <p>ضيفوا البيانات مشان تتمتعوا بالعديد من الميزات</p>
+            <div class="mb-3">
+                <label class="form-label  " for="inputnumber">رقم الجوال</label>
+                <input type=" number" class="form-control" id="inputnumber" placeholder="ادخل رقم الجوال الخاص بك ">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="inputtext">  الاسم بالكامل </label>
+                <input type=" text" class="form-control" id="inputtext" placeholder="ادخل اسمك بالكامل">
+            </div>
+            <div class="mb-3">
+                 <button type="submit" class="btn btn-primary w-100">ارسال</button>  
+           </div> 
+          
+    </form>
+    <div class="container">
+        <h2 class="m-3">اكتشف اصنافنا</h2>
+        <div class="d-flex tt">
+            <p>كل التصنيفات</p><i class="fa fa-angle-left"></i> 
+         </div>
+        <div class=" text-center text-nowrap d-flex overflow-auto mb-4">
+            <div class="m-1">
+                <img src="c0.png" alt="" class="im shadow p-3  bg-body rounded-pill">
+                <p>الأثاث المنزلي</p>
+            </div>
+            <div class="m-1">
+                <img src="c1.png" alt="" class="im shadow p-3  bg-body rounded-pill">
+                <p>الأجهزةالكهربائية</p>
+            </div>
+            <div class="m-1">
+                <img src="c2.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+                <p>بدل الزفاف</p>
+            </div>
+            <div class="m-1">
+                <img src="c3.png" alt="" class="im shadow p-3  bg-body rounded-pill">
+                <p>الكوافيرات</p>
+            </div>
+            <div class="m-1">
+                <img src="c4.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+                <p>بطاقات الأفراح</p>
+            </div>
+            <div class="m-1">
+                <img src="c5.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+                <p>تزيين الورود</p>
+            </div>
+            <div class="m-1">
+                <img src="c6.png" alt="" class="im shadow p-3  bg-body rounded-pill">
+                <p>تأجير الباصات</p>
+            </div>
+            <div class="m-1">
+                <img src="c7.png" alt="" class="im shadow p-3  bg-body rounded-pill">
+                <p>استوديوهات التصوير</p>
+            </div>
+            <div class="m-1">
+                <img src="c8.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+                <p>المطابخ</p>
+            </div>
+            <div class="m-1">
+                <img src="c9.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+                <p>الفنادق</p>
+            </div>
+            <div class="m-1">
+                <img src="c10.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+                <p>فنون استعراضية</p>
+            </div>
+            <div class="m-1">
+                <img src="c11.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+                <p>المسارح</p>
+            </div>
+            <div class="m-1">
+                <img src="c12.png" alt="" class="im shadow p-3  bg-body rounded-pill">
+                <p>بدل رجالي</p>
+            </div>
+            <div class="m-1">
+                <img src="c13.png" alt="" class="im shadow p-3  bg-body rounded-pill">
+                <p>حلوبات الأفراح</p>
+            </div>
+            <div class="m-1"> 
+                <img src="c14.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+                <p>مفروشات</p>
+            </div>
+            <div class="m-1">
+                <img src="c15.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+                <p>أدوات منزلية</p>
+            </div>
+            <div class="m-1">
+                <img src="c16.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+                <p>كل التصنيفات</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="row mt-3 mb-3">
+
+            <div class="col-lg-4">
+                <a href="" class="text-decoration-none text-dark">
+                <div class="card" >
+                    <img class="card-img-top" src="adv1-2.jpeg"   >
+                    <div class="card-body">
+                    <h5 class="card-title">أكورد، القصة، وبناء الثقة</h5>
+                      <p class="card-text pb-4">    تمتلك أكورد مئات الموردين وآلاف المنتجات التي تملأ المنصة الآن من جميع التصنيفات التي تهم المقبلين على الزواج بالإضافة ...</p>
+                    </div>
+                  </div>
+                </a>
+            </div>
+            <div class="col-lg-4">
+             <a href=""  class="text-decoration-none text-dark">
+            <div class="card" >
+                <img class="card-img-top" src="adv2 (1).jpg">
+                <div class="card-body">
+                  <h5 class="card-title "> الشراكات,الطريق للراحة والتحكم</h5>
+                  <p class="card-text">   من خلال اضافة خيار التقسيط الى خيارات الدفع الكاش المتوفر لدينا ,يمكنننا توفسر تجربة تسوق أكثر شمولية ,ومنح عملائنا مزيدا من الراحة و التحكم و الوصول الى خيارات...</p>
+                </div>
+              </div>
+            </a>
+              </div>
+            <div class="col-lg-4">
+              <a href=""  class="text-decoration-none text-dark">
+            <div class="card" >
+                <img class="card-img-top" src="adv3 (1).jpg"   >
+                <div class="card-body">
+                    <h5 class="card-title">المنتجات وقوة موردينا</h5>
+                  <p class="card-text">  الأفضل أمام عينك، مع وجود خطة تمكن الفريق من جلب منتجات عديدة بمواصفات حقيقية، كان لابد من وجود العديد من الاعتبارات التي نأخذها ليكون أحدهم من موردينا ...</p>
+                </div>
+              </div>
+            </a>
+            </div>
             
-    <div class="form">
-       <img src="img1.png" alt="" width="60px;">
-       
-       <h2>تسجيل الدخول</h2>
-       
-        <label for="">البريد الالكتروني</label><br>
-        <input type="email" placeholder="يرجى ادخال البريد الالكتروني"><br><br>
-        <label for="">رقم الجوال </label><br>
-        <input type="number" placeholder="يرجى ادخال رقم الجوال ">
-        <br><br>
-        <a href="">نسيت كلمة المرور</a><br>
-        <button>تسجيل الدخول</button><br>
-        <a href="">ليس لديك حساب؟</a>
-   
+        </div>
+        <img src="adv2-mobile.gif" class="w-100 mb-3">
+        <div class="row mb-3">
+            <div class="col-md-4 col-sm-6">
+                <a href="" class="text-decoration-none text-dark">
+                    <div class="card" >
+                        <img class="card-img-top" src="art1.jpg"   >
+                        <div class="card-body">
+                            <h5 class="card-title">كيف تخطط لحفل زفاف بأفضل التكاليف</h5>
+                          <p class="card-text pb-4">    يحلم الكثير من الشباب بإقامة فرحٍ جميل لا يُنسى، لكن ليس كثيراً منا يستطيع بسبب السيولة المالية. فالحل الأفضل هو إلقاء نظرة جادة على جميع النفقات المرتبطة بيوم ... </p>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="" class="text-decoration-none text-dark">
+                        <div class="card mt-2" >
+                            <img class="card-img-top" src="temporary-2.png"   >
+                            <div class="card-body">
+                                <h5 class="card-title text-center">باقات أفراح صيف 2023</h5>
+                              
+                            </div>
+                          </div>
+                        </a>
+
+
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="" class="text-decoration-none text-dark">
+                    <div class="card" >
+                        <img class="card-img-top" src="art2.jpg"   >
+                        <div class="card-body">
+                            <h5 class="card-title">كيف تدفع لحفل زفافك؟</h5>
+                          <p class="card-text ">    من المهم أن تفهم كيف سيتم تقسيم ميزانيتك. التوفير في حفل الزفاف ليس بالمهمة المستعصية. إليك كيفية التوفير والدفع مقابل يوم الفرح عن طريق الإنفاق بذكاء والاقتطاع قليلاً على طول الطريق ... </p>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="" class="text-decoration-none text-dark">
+                        <div class="card mt-2" >
+                            <img class="card-img-top" src="temporary-2.png"   >
+                            <div class="card-body">
+                                <h5 class="card-title text-center">أحدث العروض</h5>
+                              
+                            </div>
+                          </div>
+                        </a>
+
+
+            </div>
+            <div class="col-md-4 col-sm-6  ">
+                <a href="" class="text-decoration-none text-dark">
+                    <div class="card" >
+                        <img class="card-img-top" src="art3.jpg"   >
+                        <div class="card-body">
+                            <h5 class="card-title">10 نصائح لشراء منتجات واختيار الخدمات لفرحك</h5>
+                          <p class="card-text ">    إذا كنت ترغب في شراء عفش لمنزلك او إختيار صالة او مسرح لسهرة الشباب، فهناك بعض الأشياء التي يجب مراعاتها قبل الإقدام على عملية الشراء ... </p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="" class="text-decoration-none text-dark">
+                        <div class="card mt-2" >
+                            <img class="card-img-top" src="individual-offers.png"   >
+                            <div class="card-body">
+                            <h5 class="card-title"> العروض الفردية </h5>
+                              
+                            </div>
+                          </div>
+                        </a>
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+    </div> 
+    <div class="header-line">
+    </div>
+    <div class="container">
+      <div class="row mt-2">
+        <div class="col-lg-4">
+          <h4>للاتصال بنا</h4>
+          <p>يسرنا تواصلك معنا من خلال أي من القنوات المتاحة </p>
+          <div class="d-flex">
+            <div>
+              <h6>أرقام التواصل</h6>
+              <p>170040060</p>
+              <h6>العنوان</h6>
+              <p>
+                فلسطين، غزة، مقابل البوابة الشمالية لجامعة الأزهر، مجمع الرؤيا التجاري</p>
+              </div>
+            <div>
+              <h6 class="text-nowrap">البريد الإلكتروني</h6>
+              <p>info@accord.ps</p>
+              <h6>ساعات العمل </h6>
+              <p>السبت - الخميس
+              9:00 صباحاً - 3:30 مساءً</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 mb-5">
+          <div class="list-group list-group-flush text-decoration-none"> 
+            <h4>المعلومات</h4> 
+            <a href="#" class="list-group-item">من نحن؟</a>
+            <a href="#" class="list-group-item">سياسة الخصوصية</a>
+            <a href="#" class="list-group-item">للاتصال بنا</a>
+            <a href="#" class="list-group-item">الأسئلة الشائعة</a>
+            <a href="#" class="list-group-item"> مورد جديد  </a>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="list-group list-group-flush text-decoration-none"> 
+            <h4>الملف الشخصي</h4> 
+            <a href="#" class="list-group-item">التسجيل</a>
+            <a href="#" class="list-group-item"> تسجيل الدخول  </a>
+            <a href="#" class="list-group-item">المفضلة</a>
+            <a href="#" class="list-group-item"> سلة المشتريات  </a>
+            <a href="#" class="list-group-item"> البحث </a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <h4>قائمة الواتس أب</h4>
+          <p>انضم إلى قائمة الواتس أب الخاصة بالمنصة للبقاء على إطلاع بأحدث الخصومات والعروض الخاصة.</p>
+          <div class="col-sm-10 d-flex">
+            <input type="text" class="form-control"placeholder="رقم الواتس أب...">
+            <button class=" btn btn-primary pb-2 mx-1">الاشتراك</button>
+          </div>
+          <div class="mt-2">
+            <h6>وسائل التواصل الإجتماعي</h6>
+            <div>
+                 <a href=""><img src="face.png" width="50" class="rounded-circle"></a>
+                 <a href=""><img src="inst.jpeg" width="38" class="rounded-circle"> </a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src="login-2.jpg" alt="" >
     </div>
-    </div>
-    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
 </html>

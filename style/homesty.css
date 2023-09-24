@@ -1,0 +1,107 @@
+body{
+   margin: 0;
+}
+.header-line{
+    height: 5px;
+    background :linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+}
+nav{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav .left{
+    display: flex;
+    float: left;
+    text-align: center;
+}
+nav button{
+    background-color: rgb(108, 235, 108);
+    color: white;
+    border: none;
+    border-radius: 5px;
+   padding: 10px;
+    height: 30px;
+    margin: 5px;
+}
+nav .left div{
+    margin-right: 15px;
+}
+nav .left p{
+    margin-top: 7px;
+}
+.main{
+    background-image: url(slider-2.jpg);
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+   margin-top: 15px;
+   position: relative;
+}
+.welcome input{
+display: block;
+border-radius: 5px;
+width: 100%;
+}
+.welcome label{
+    display: block;
+}
+.form{
+    margin-top: 15px;
+}
+.welcome button{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    margin-top: 15px;
+    width: 100%;
+
+}
+.welcome{
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    top: 120px;
+    left: 100px;
+    padding: 15px;
+  
+}
+.welcome h1{
+    text-align: center;
+    color: #9a9393;
+}
+.categories{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.categories h1{
+  margin: 0;
+  padding-top: 20px;
+}
+.categories .items{
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.categories .items .item p{
+    margin-top: 5px;
+}
+.categories .items .item img{
+    height: 80px;
+    width: 80px;
+}
+.categories .items .item{
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+ .all-cat{
+text-align: left;
+
+}
+

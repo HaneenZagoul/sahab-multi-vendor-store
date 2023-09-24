@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>البحث</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .header-line{
+               height: 10px;
+               background :linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+           }
+      .sp{
+        background-color: blueviolet;
+      }
+      .search{
+            background-color: rgb(65, 130, 195);
+             padding-top: 7px;
+            padding-bottom: 1px;
+      }
+      .im{
+                height: 80px;
+                 width: 80px;
+            }
+      .imgg{
+        margin-right: 50px;
+      }
+      .img{
+   margin-left: 140px;
+      }
+      .gr{
+        background-color: rgb(154, 150, 150);
+      }
+      
+    </style>
+</head>
+<body>
+    <div class="header-line">
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white mt-2">
+          <div class="container-fluid">
+            <a class="navbar-brand " href="#"> <img src="img1.png"  width="120"></a>
+             <div class="nav-item dropdown mt-1">  
+              <a class="nav-link dropdown-toggle text-decoration-none text-secondary  d-lg-block d-none" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                التصنيفات
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <button class="btn btn-success m-3"><span class="bi bi-plus"></span>  سجل كمورد </button>
+               </li>
+                <li class="nav-item">
+                   <div class="d-flex text-center">
+                    <div>
+                      <i class="bi bi-search"></i>
+                      <span class="badge sp rounded-pill">0</span>
+                      <p class="p-2">البحث</p>
+                  </div>
+                    <div>
+                      <i class="bi bi-heart"></i>
+                      <span class="badge sp rounded-pill">0</span>
+                       <p class="p-2">المفضلة</p>
+                    </div>
+                    <div>
+                      <i class="bi bi-cart3"></i>
+                      <p class="p-2">المشتريات</p>
+                  </div>
+                  <div>
+                    <i class="bi bi-person-square"></i>
+                    <p class="p-2">تسجيل الدخول</p>
+                  </div>
+                   </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </nav>
+    </div>
+    <hr class="hr-top-header">   
+    <div class="search">
+         <div class="container ">   
+            <div class="d-flex">
+                <input type="text" class="form-control m-2 p-2"placeholder="البحث...    ">
+                <span class="my-1"><i class="bi bi-search icon"></i></span> 
+             </div>
+         </div>
+    </div> 
+    <div class="container">
+    <div class=" text-center text-nowrap d-flex overflow-auto mb-4 mt-3">
+        <div class="m-1">
+            <img src="c0.png" alt="" class="im shadow p-3  bg-body rounded-pill">
+            <p>الأثاث المنزلي</p>
+        </div>
+        <div class="m-1">
+            <img src="c1.png" alt="" class="im shadow p-3  bg-body rounded-pill">
+            <p>الأجهزةالكهربائية</p>
+        </div>
+        <div class="m-1">
+            <img src="c2.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+            <p>بدل الزفاف</p>
+        </div>
+        <div class="m-1">
+            <img src="c3.png" alt="" class="im shadow p-3  bg-body rounded-pill">
+            <p>الكوافيرات</p>
+        </div>
+        <div class="m-1">
+            <img src="c4.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+            <p>بطاقات الأفراح</p>
+        </div>
+        <div class="m-1">
+            <img src="c5.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+            <p>تزيين الورود</p>
+        </div>
+        <div class="m-1">
+            <img src="c6.png" alt="" class="im shadow p-3  bg-body rounded-pill">
+            <p>تأجير الباصات</p>
+        </div>
+        <div class="m-1">
+            <img src="c7.png" alt="" class="im shadow p-3  bg-body rounded-pill">
+            <p>استوديوهات التصوير</p>
+        </div>
+        <div class="m-1">
+            <img src="c8.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+            <p>المطابخ</p>
+        </div>
+        <div class="m-1">
+            <img src="c9.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+            <p>الفنادق</p>
+        </div>
+        <div class="m-1">
+            <img src="c10.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+            <p>فنون استعراضية</p>
+        </div>
+        <div class="m-1">
+            <img src="c11.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+            <p>المسارح</p>
+        </div>
+        <div class="m-1">
+            <img src="c12.png" alt="" class="im shadow p-3  bg-body rounded-pill">
+            <p>بدل رجالي</p>
+        </div>
+        <div class="m-1">
+            <img src="c13.png" alt="" class="im shadow p-3  bg-body rounded-pill">
+            <p>حلوبات الأفراح</p>
+        </div>
+        <div class="m-1"> 
+            <img src="c14.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+            <p>مفروشات</p>
+        </div>
+        <div class="m-1">
+            <img src="c15.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+            <p>أدوات منزلية</p>
+        </div>
+        <div class="m-1">
+            <img src="c16.png" alt=""class="im shadow p-3  bg-body rounded-pill">
+            <p>كل التصنيفات</p>
+        </div>
+    </div>
+    <img src="adv-search5.jpg" class="w-100 mb-3">
+    <div class="container">
+        <div class="row bg-light">
+            <div class="col-lg-9">
+                <div class="d-flex">
+                    <span>الترتيب حسب&nbsp;</span>
+                    <div class="nav-item dropdown mt-1">  
+                        <a class="nav-link dropdown-toggle text-decoration-none text-secondary  d-lg-block d-none" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span></button>
+                        
+                      </div>
+                    <input type="text" class="form-control w-25 mb-5" placeholder="الأقل سعرا">
+                    <p>الى</p>
+                    <input type="text" class="form-control w-25 mb-5" placeholder="الأعلى سعرا">
+                     
+                    
+                </div>
+               
+
+                <div class="card mt-1 g-2" >
+                    
+                    <img class="card-img-top w-25" src="img2.png" >
+                    <div class="card-body">
+                  <button type="button" class="btn btn-primary btn-sm m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="bi bi-heart"></i>
+                      </button>
+        
+                        <a href="" class="text-decoration-none text-secondary">صالات الأفراح -قاعة الأفراح</a>
+                       <a href="" class="card-title text-decoration-none text-secondary"><h5>صالة اللوتس</h5></a> 
+                      <p class="card-text "> من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة </p>
+                      <span class="badge bg-light text-dark">1700$</span>
+                    </div>
+                </div>
+
+                <div class="card mt-1 g-2" >
+                    <img class="card-img-top w-25" src="img2.png" >
+                    <div class="card-body">
+                        <button type="button" class="btn btn-primary btn-sm m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="bi bi-heart"></i>
+                              </button>
+                        <a href="" class="text-decoration-none text-secondary">صالات الأفراح -قاعة الأفراح</a>
+                       <a href="" class="card-title text-decoration-none text-secondary"><h5>صالة اللوتس</h5></a> 
+                      <p class="card-text "> من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة </p>
+                      <span class="badge bg-light text-dark">1700$</span>
+                    </div>
+                </div>
+
+
+
+                <div class="card mt-1 g-2" >
+                    <img class="card-img-top w-25" src="img2.png" >
+                    <div class="card-body">
+                        <button type="button" class="btn btn-primary btn-sm m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="bi bi-heart"></i>
+                              </button>
+                        <a href="" class="text-decoration-none text-secondary">صالات الأفراح -قاعة الأفراح</a>
+                       <a href="" class="card-title text-decoration-none text-secondary"><h5>صالة اللوتس</h5></a> 
+                      <p class="card-text "> من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة </p>
+                      <span class="badge bg-light text-dark">1700$</span>
+                    </div>
+                </div>
+
+
+
+
+                <div class="card m-1 g-2" >
+                    <img class="card-img-top w-25" src="img2.png" >
+                    <div class="card-body">
+                        <button type="button" class="btn btn-primary btn-sm m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="bi bi-heart"></i>
+                              </button>
+                        <a href="" class="text-decoration-none text-secondary">صالات الأفراح -قاعة الأفراح</a>
+                       <a href="" class="card-title text-decoration-none text-secondary"><h5>صالة اللوتس</h5></a> 
+                      <p class="card-text "> من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة </p>
+                      <span class="badge bg-light text-dark">1700$</span>
+                    </div>
+                </div>
+                <img src="adv-home.jpg"  class="w-100 mt-2">
+
+                
+                <div class="card mt-1 g-2" >
+                    <img class="card-img-top w-25" src="img2.png" >
+                    <div class="card-body">
+                        <button type="button" class="btn btn-primary btn-sm m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="bi bi-heart"></i>
+                              </button>
+                        <a href="" class="text-decoration-none text-secondary">صالات الأفراح -قاعة الأفراح</a>
+                       <a href="" class="card-title text-decoration-none text-secondary"><h5>صالة اللوتس</h5></a> 
+                      <p class="card-text "> من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة </p>
+                      <span class="badge bg-light text-dark">1700$</span>
+                    </div>
+                </div>
+
+                
+                <div class="card mt-1 g-2" >
+                    <img class="card-img-top w-25" src="img2.png" >
+                    <div class="card-body">
+                        <button type="button" class="btn btn-primary btn-sm m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="bi bi-heart"></i>
+                              </button>
+                        <a href="" class="text-decoration-none text-secondary">صالات الأفراح -قاعة الأفراح</a>
+                       <a href="" class="card-title text-decoration-none text-secondary"><h5>صالة اللوتس</h5></a> 
+                      <p class="card-text "> من شهر 11 إلى شهر 4، غزة، مكيَف، 600 كرسي، 68 طاولة </p>
+                      <span class="badge bg-light text-dark">1700$</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3">
+                <div class="mt-2 bg-white">
+                    <img src="table.jpg" class="bg-light w-50 imgg">
+                    <span class="d-block text-secondary">طاولة وسط</span> 
+                    <p class="text-dark">₪1636</p>
+                    <hr>
+                    <img src="table2.jpg" class="bg-light w-50 imgg">
+                    <span class="d-block text-secondary">طاولة وسط</span> 
+                    <p class="text-dark">₪1400</p>
+                    <hr>
+                    <img src="adress.jpg" class="bg-light w-50 imgg">
+                    <span class="d-block text-secondary"> سنتر اجمل العرايس </span> 
+                    <p class="text-dark">₪750</p>
+                </div>
+                <div class="mt-2 bg-white text-center">
+                    <h5 class="gr">شركة آت هوم للأثاث العصري</h5>
+                    <img src="adress.jpg" class="bg-light img " width="40px">
+                    <span class="d-block text-secondary text-right">  ₪750</span> 
+                    <span class="d-block text-secondary text-right"> غرفة نوم اسطنبول</span>
+                    <span class="d-block text-secondary text-right">  2010058</span> 
+                    <hr>
+                    <img src="adress.jpg" class="bg-light img " width="40px">
+                    <span class="d-block text-secondary text-right">  ₪750</span> 
+                    <span class="d-block text-secondary text-right"> غرفة نوم اسطنبول</span>
+                    <span class="d-block text-secondary text-right">  2010058</span> 
+                    <hr>
+                </div>
+                <img src="adv-callcenter.jpg" class="w-100">
+            </div>
+        </div>
+    </div>
+    <img src="call-center.jpg" class="w-100 mb-3 mt-3">
+</div>
+<div class="header-line">
+</div>
+<div class="container">
+    <div class="row mt-2">
+      <div class="col-lg-4">
+        <h4>للاتصال بنا</h4>
+        <p>يسرنا تواصلك معنا من خلال أي من القنوات المتاحة </p>
+        <div class="d-flex">
+          <div>
+            <h6>أرقام التواصل</h6>
+            <p>170040060</p>
+            <h6>العنوان</h6>
+            <p>
+              فلسطين، غزة، مقابل البوابة الشمالية لجامعة الأزهر، مجمع الرؤيا التجاري</p>
+            </div>
+          <div>
+            <h6 class="text-nowrap">البريد الإلكتروني</h6>
+            <p>info@accord.ps</p>
+            <h6>ساعات العمل </h6>
+            <p>السبت - الخميس
+            9:00 صباحاً - 3:30 مساءً</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 mb-5">
+        <div class="list-group list-group-flush text-decoration-none"> 
+          <h4>المعلومات</h4> 
+          <a href="#" class="list-group-item">من نحن؟</a>
+          <a href="#" class="list-group-item">سياسة الخصوصية</a>
+          <a href="#" class="list-group-item">للاتصال بنا</a>
+          <a href="#" class="list-group-item">الأسئلة الشائعة</a>
+          <a href="#" class="list-group-item"> مورد جديد  </a>
+        </div>
+      </div>
+      <div class="col-lg-2">
+        <div class="list-group list-group-flush text-decoration-none"> 
+          <h4>الملف الشخصي</h4> 
+          <a href="#" class="list-group-item">التسجيل</a>
+          <a href="#" class="list-group-item"> تسجيل الدخول  </a>
+          <a href="#" class="list-group-item">المفضلة</a>
+          <a href="#" class="list-group-item"> سلة المشتريات  </a>
+          <a href="#" class="list-group-item"> البحث </a>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <h4>قائمة الواتس أب</h4>
+        <p>انضم إلى قائمة الواتس أب الخاصة بالمنصة للبقاء على إطلاع بأحدث الخصومات والعروض الخاصة.</p>
+        <div class="col-sm-10 d-flex">
+          <input type="text" class="form-control"placeholder="رقم الواتس أب...">
+          <button class=" btn btn-primary pb-2 mx-1">الاشتراك</button>
+        </div>
+        <div class="mt-2">
+          <h6>وسائل التواصل الإجتماعي</h6>
+          <div>
+               <a href=""><img src="face.png" width="50" class="rounded-circle"></a>
+               <a href=""><img src="inst.jpeg" width="38" class="rounded-circle"> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">أهلاً وسهلاً بك في أكورد</h5>
+          <button type="button" class="btn-close m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          يجب عليك تسجيل الدخول أولاً أو التسجيل في موقع أكورد
+        </div>
+        <div class="modal-footer">
+          <button type="button" class=" sp text-white rounded border-none p-1" data-bs-dismiss="modal">تسجيل الدخول</button>
+          <button type="button" class="sp text-white rounded border-none w-25 p-1">تسجيل</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
+</body>
+</html>

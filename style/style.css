@@ -1,0 +1,70 @@
+.discreption{
+    box-shadow: rgb(216 176 142) 0px -4px;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid  rgb(216 176 142);
+  margin: 15px;
+}
+p{
+    color: black;
+}
+*{
+    color:font-family; 
+    color: rgb(105, 103, 102);
+}
+.discreption p{
+    font-size: 14px;
+}
+.discreption h3{
+    text-align: center;
+ 
+}
+.but{
+    display: block;
+   margin-right: 70%;
+   
+}
+button:hover{
+    cursor: pointer;
+}
+
+
+
+.nnn{
+    border: 5px solid black;
+    display: inline;
+}
+a{
+   text-decoration: none;
+   padding: 15px;
+   color: gray;
+   margin: 5px;
+
+}
+.im{
+    margin-right: 30%;
+   margin-top: 8px;
+}
+header{
+    margin: 5px;
+}
+.table{
+    box-shadow: rgb(255 208 7) 0px -4px;
+    border: 1px solid  rgb(255 208 7);
+    width: 71%;
+    margin: 15px;
+}
+.table h3{
+    text-align: center;
+ 
+}
+.details{
+    box-shadow:rgb(192 156 221) 0px -4px; 0px -4px;
+    border: 1px solid  rgb(192 156 221) ;
+    width: 71%;
+    margin: 15px;  
+}
+.details h3{
+    text-align: center;
+ 
+}

@@ -1,30 +1,41 @@
 <!DOCTYPE html>
-<html dir="rtl">
+<html  dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> تسجيل الدخول</title>
-    <link rel="stylesheet" href="stylogin.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
 </head>
 <body>
-    <div class="main">
-        
-    <div class="form">
-        <img src="img1.png" width="100">
-        <h3>البريد الالكتروني</h3>
-        <input type="email" placeholder="يرجى ادخال البريد الالكتروني">
-        <h3>رقم الجوال</h3>
-        <input type="number" placeholder="يرجى ادخال رقم الجوال  ">
-        <h3> كلمة المرور</h3>
-        <input type="password" placeholder="يرجى ادخال كلمة المرور  "> <br> <br>
-        <a href="">نسيت كلمة المرور</a> <br> <br>
-        
-        <button>تسجيل الدخول</button> <br> <br>
-        <span><a  href="" >ليس لديك حساب؟</a></span><br>
-    </div>
-    <div>
-        <img src="login-2.jpg" >  
+    <div class="container">
+        <div class="row g-0 mt-4">
+        <div class="col-lg-5 shadow p-3 mb-5 bg-body rounded">
+                <form>
+                    <a href="" ><img src="img1.png"  width="150"></a> 
+                    <h2 class="text-center text-muted">تسجيل الدخول</h2>
+                        <div class="mb-3">
+                            <label class="form-label  " for="inputnumber">رقم الجوال</label>
+                            <input type=" number" class="form-control" id="inputnumber" placeholder="رقم الجوال">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="inputpassword">  كلمةالمرور </label>
+                            <input type=" password" class="form-control" id="inputpassword" placeholder="كلمةالمرور">
+                        </div>
+                        <a href="" class="text-decoration-none text-muted" >نسيت كلمةالمرور</a>
+                        <div class="mb-3">
+                             <button type="submit" class="btn btn-primary w-100 mt-5">تسجيل الدخول</button>  
+                       </div>
+                        
+                          <a href="" class="text-decoration-none text-muted d-block text-center " >ليس لديك حساب؟</a> 
+                       
+                </form>
+        </div>
+        <div class="col-lg-7 mt-3" >
+            <img src="login-2.jpg" class="rounded w-100">
+        </div>
       </div>
-</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
 </body>
 </html>
